@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<?php
+	include_once('link.php');
+	?>
+	<link rel="stylesheet" href="./assets/css/main.css">
+	<title>(주)오늘</title>
+</head>
+<body>
+	<!-- #WRAP -->
+	<div id="wrap">
+		<?php
+		include_once('header.php');
+		?>
+
+		<!-- #CONTENTS -->
+		<div id="contents">
+			<!-- main slide -->
+			<section class="sec_01">
+				<div class="slide_wrap">
+					<div class="slide_util">
+						<div class="btn_arrow prev"></div>
+						<div class="btn_arrow next"></div>
+					</div>
+					<div class="main_slide">
+						<div class="item main_01">
+							<figure>
+								<span></span>
+							</figure>
+							<h2>
+								자연의 맛을 그대로 담은 신선함과 품질을 자랑하는
+								<strong>새송이버섯을 생산하는 (주)오늘입니다.</strong>
+							</h2>
+						</div>
+						<div class="item main_02">
+							<figure>
+								<span></span>
+							</figure>
+							<h2>
+								자연의 맛을 그대로 담은 신선함과 품질을 자랑하는
+								<strong>새송이버섯을 생산하는 (주)오늘입니다.</strong>
+							</h2>
+						</div>
+						<div class="item main_03">
+							<figure>
+								<span></span>
+							</figure>
+							<h2>
+								육질이 단단하고 버섯 고유의 향이 살아 있는
+								<strong>성화새송이버섯</strong>
+							</h2>
+						</div>
+					</div>
+				</div>
+
+				<!-- scroll down -->
+				<div class="scroll_down">
+					<p>SCROLL DOWN</p>
+				</div>
+				<!--// scroll down -->
+			</section>
+			<!-- // main slide -->
+
+			<!-- we are -->
+			<section class="sec_02">
+				<div class="inner">
+					<div class="sec_tit">
+						<span class="sub_tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">We Are</span>
+						<h2 class="tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">'주식회사 오늘'이 인사드립니다.</h2>
+
+						<div class="slide_util" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+							<div class="btn_arrow prev"></div>
+							<div class="btn_arrow next"></div>
+						</div>
+					</div>
+					<div class="slide_wrap" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+						<div class="we_slide swiper">
+							<div class="swiper-wrapper">
+								<div class="item swiper-slide">
+									<a href="#">
+										<figure>
+											<img src="./assets/image/we_01.png" alt="">
+										</figure>
+										<strong>
+											삶의 모든 순간에 <br>
+											고객과 함께하는 식품
+										</strong>
+									</a>
+								</div>
+								<div class="item swiper-slide">
+									<a href="#">
+										<figure>
+											<img src="./assets/image/we_02.png" alt="">
+										</figure>
+										<strong>
+											세계 최고 품질을 향한  <br>
+											끊임없는 노력
+										</strong>
+									</a>
+								</div>
+								<div class="item swiper-slide">
+									<a href="#">
+										<figure>
+											<img src="./assets/image/we_03.png" alt="">
+										</figure>
+										<strong>
+											자연과 환경을 사랑하며 <br>
+											안전한 먹거리를 만드는 (주)오늘
+										</strong>
+									</a>
+								</div>
+								<div class="item swiper-slide">
+									<a href="#">
+										<figure>
+											<img src="./assets/image/we_04.png" alt="">
+										</figure>
+										<strong>
+											자연과 환경을 사랑하며 <br>
+											안전한 먹거리를 만드는 (주)오늘
+										</strong>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- // we are -->
+
+			<!-- company -->
+			<section class="sec_03">
+				<div class="inner">
+					<div class="sec_tit">
+						<span class="sub_tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">Company</span>
+						<h2 class="tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+							자연 유사환경 시스템으로 단단한 육질과 향을 자랑하는 <br>
+							새송이버섯을 제공합니다.
+						</h2>
+					</div>
+					<ul class="img_list">
+						<li data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+							<a href="#">
+								<figure>
+									<img src="./assets/image/company_01.png" alt="">
+								</figure>
+							</a>
+						</li>
+						<li data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+							<a href="#">
+								<figure>
+									<img src="./assets/image/company_02.png" alt="">
+								</figure>
+							</a>
+						</li>
+						<li data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+							<a href="#">
+								<figure>
+									<img src="./assets/image/company_03.png" alt="">
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // company -->
+
+			<!-- recipe -->
+			<section class="sec_04">
+				<div class="inner">
+					<div class="recipe_wrap">
+						<div class="recipe_bg" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300"><span></span></div>
+						<div class="sec_tit">
+							<span class="sub_tit"  data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">Recipe</span>
+							<h2 class="tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+								성화새송이버섯 활용 레시피
+							</h2>
+							<p  data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">성화새송이버섯을 활용한 맛있는 요리 꿀팁을 알려드립니다. </p>
+							<div class="btn_wrap" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+								<a href="#n" class="btn btn_more">MORE +</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="inner recipe_slide"  data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+					<div class="slide_arr">
+						<button class="recipe_arrow prev"></button>
+						<button class="recipe_arrow next"></button>
+					</div>
+					<!-- 슬라이드 -->
+					<div class="swiper recipe_list">
+						<div class="swiper-wrapper">
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img src="./assets/image/recipe_01.png" alt="">
+									</figure>
+									<span>새송이버섯 구이</span>
+								</a>
+							</div>
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img src="./assets/image/recipe_02.png" alt="">
+									</figure>
+									<span>새송이버섯 피자</span>
+								</a>
+							</div>
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img src="./assets/image/recipe_01.png" alt="">
+									</figure>
+									<span>새송이버섯 구이</span>
+								</a>
+							</div>
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img src="./assets/image/recipe_02.png" alt="">
+									</figure>
+									<span>새송이버섯 피자</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!--// 슬라이드 -->
+				</div>
+			</section>
+			<!-- // recipe -->
+
+			<!-- review -->
+			<section class="sec_05">
+				<div class="inner">
+					<div class="sec_tit">
+						<span class="sub_tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">Review</span>
+						<h2 class="tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+							직접 드셔본 분들이 인증해 준 <br>
+							스마트스토어리뷰
+						</h2>
+						<p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+							성화새송이버섯, 다른 사람들은 어땠을까요? <br>
+							생생한 리뷰와 다양한 의견을 살펴볼 수 있습니다.
+						</p>
+					</div>
+				</div>
+				<div class="slide_wrap" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+					<div class="swiper review_slide">
+						<div class="swiper-wrapper">
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img class="image" src="./assets/image/review_01.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img class="image" src="./assets/image/review_02.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item swiper-slide">
+								<a href="#">
+									<figure>
+										<img class="image" src="./assets/image/review_01.png" alt="">
+									</figure>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- // review -->
+
+			<!-- img section -->
+			<section class="sec_06">
+				<figure data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
+					<img src="./assets/image/biz_obj.png" alt="">
+				</figure>
+				<div class="sec_tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+					<h2 class="tit">
+						건강한 자연을 품은 새송이 버섯 <br>
+						성화새송이버섯
+					</h2>
+				</div>
+			</section>
+			<!-- // img section -->
+
+			<!-- business -->
+			<section class="sec_07">
+				<div class="inner">
+					<div class="sec_tit">
+						<span class="sub_tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">Business</span>
+						<h2 class="tit" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+							성화새송이버섯이 <br>
+							여러분의 곁에 있습니다.
+						</h2>
+					</div>
+					<ul class="biz_list" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+						<li>
+							<figure>
+								<img src="./assets/image/biz_01.png" alt="">
+							</figure>
+							<strong class="tit">프랜차이즈</strong>
+							<p>
+								전국 500개점 이상의 <br>
+								가맹점 납품을 목표를 <br>
+								나아가고 있습니다.
+							</p>
+						</li>
+						<li>
+							<figure>
+								<img src="./assets/image/biz_02.png" alt="">
+							</figure>
+							<strong class="tit">유통</strong>
+							<p>
+								홈플러스, 이마트, 롯데마트 등 <br>
+								전국의 마트에서도 만나보실 수 <br>
+								있도록 한 발 더 도약합니다.
+							</p>
+						</li>
+						<li>
+							<figure>
+								<img src="./assets/image/biz_03.png" alt="">
+							</figure>
+							<strong class="tit">급식</strong>
+							<p>
+								아이들의 건강한 성장을 위해 <br>
+								안전한 먹거리를 생산하여 <br>
+								납품하고자 합니다.
+							</p>
+						</li>
+						<li>
+							<figure>
+								<img src="./assets/image/biz_04.png" alt="">
+							</figure>
+							<strong class="tit">직거래</strong>
+							<p>
+								성화새송이버섯의 신선함을 <br>
+								바로 맛보실 수 있도록 <br>
+								합천파머스 스마트스토어에서 <br>
+								직거래 판매하고 있습니다.
+							</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- // business -->
+
+			<!-- contact -->
+			<section class="sec_08">
+				<div class="contact_conbox c_info">
+					<div class="left_con">
+						<strong>(주)오늘 <br>문의하기</strong>
+					</div>
+					<div class="right_con">
+						<a href="tel:010-4002-1688" class="contact_tel">010-4002-1688</a>
+						<p>
+							평일 오전9:00~오후6:00 (점심 : 12:00~1:00) <br>
+							※ 주말 및 공휴일은 휴무입니다.
+						</p>
+					</div>
+				</div>
+				<div class="contact_conbox c_kakao">
+					<div class="left_con">
+						<strong>(주)오늘 <br>카카오톡 문의</strong>
+					</div>
+					<div class="right_con">
+						<a href="#n" class="contact_link">바로가기</a>
+					</div>
+				</div>
+			</section>
+			<!-- // contact -->
+		</div>
+		<!-- // #CONTENTS -->
+
+		<!-- #FOOTER -->
+		<?php
+		include_once('footer.php');
+		?>
+		<!-- // #FOOTER -->
+
+		<!-- quick menu -->
+		<div class="quick_wrap">
+			<a href="tel:010-4002-1688" class="btn btn_quick"><span>010-4002-1688</span><i></i></a>
+			<a href="https://smartstore.naver.com/hcfarmers/products/4052738867" target="_blank" class="btn btn_quick"><span>제품 구매하기</span><i></i></a>
+			<a href="#n" class="btn go_top" title="top"><span class="blind">top</span></a>
+		</div>
+		<!-- // quick menu -->
+	</div>
+	<!-- // WRAP -->
+
+
+</body>
+</html>
